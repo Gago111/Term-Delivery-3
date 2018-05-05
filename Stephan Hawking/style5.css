@@ -1,0 +1,127 @@
+body {
+	background-color:#66A5AD;
+	font-family: arial;
+}
+
+.article-container {
+	width: 900px;
+	background-color:#C4DFE6;
+	padding: 30px;
+}
+
+.article-box {
+	width: 100%;
+	padding-bottom: 30px;
+}
+.span3{
+position:relative;
+margin-left: 1000px;
+top:-125px;
+left:470px;
+font-size: 40px;
+}
+
+.span3 a{
+text-decoration:none;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+		position:relative;
+		left:550px;
+
+}
+
+input[type=text]:focus {
+    width: 25%;
+}
+
+button {
+	width: 100px;
+	height: 40px;
+	font-size: 15px;
+  color: gray;
+	position:relative;
+	left:545px;
+}
+
+.spanx a {
+	position: relative;
+
+	right: -690px;
+	bottom: 30px;
+	font-size: 40px;
+	top: -72px;
+	text-decoration : none;
+	left: 683px;
+}
+
+.add {
+	position: relative;
+  left:520px;
+	top: -34px;
+	font-size: 26px;
+
+}
+
+
+
+ul {
+  margin:0px;
+  padding:0px;
+  list-style:none;
+}
+
+ul li {
+  float:left;
+  width:150px;
+  height:40px;
+  background-color:black;
+  opacity: .8;
+  line-height:40px;
+  text-align:center;
+  font-size:15px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  display:block;
+}
+ul li a:hover {
+  background-color: green;
+}
+ul li ul li {
+  display:none;
+}
+
+ul li:hover ul li {
+  display:block;
+}
+
+h2 {
+  text-align:center;
+}
+
+h1 {
+position : relative;
+bottom: 0px;
+right:630px;
+text-align: center;
+}
+
+.UL {
+	position:relative;
+	bottom:45px;
+}

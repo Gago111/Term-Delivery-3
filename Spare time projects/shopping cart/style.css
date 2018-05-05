@@ -1,0 +1,157 @@
+body {
+	margin: 0;
+	font-weight: 400;
+  font-family: 'Gugi', cursive;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#login {
+	position:relative;
+	left:1400px;
+	bottom:68px;
+	text-decoration: underline;
+}
+
+#register {
+	position:relative;
+	left:1450px;
+	bottom: 90px;
+	text-decoration: underline;
+}
+
+header {
+  background: #110d3e;
+  padding: 0px;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  position:relative;
+  margin: 30px;
+  padding: 0;
+  list-style: none;
+  top: 20px;
+  left:50px;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 20px;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+  position: absolute;
+  top: 0px;
+  width: 0%;
+
+}
+
+/* nav a:hover::before {
+  width: 100%;
+} */
+
+#search {
+  position:relative;
+  left:130px;
+  top:10px;
+  width:100;
+}
+
+.search {
+  width: 100%;
+  position: relative
+}
+
+.searchTerm {
+  float: left;
+  width: 200%;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+  position:relative;
+  bottom:300px;
+  right:410px;
+}
+
+ .searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  position: absolute;
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 3px solid #00B4CC;
+  background: #white;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  position:relative;
+  bottom:335px;
+  left:527px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ img {
+   position:fixed;
+   height: 100px;
+   background-color:
+ }
+
+ #shopcart {
+	 position:relative;
+	 left:1475px;
+	 color:yellow;
+	 font-size:28px;
+	 bottom:100px;
+ }

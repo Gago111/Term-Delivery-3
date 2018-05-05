@@ -1,0 +1,10 @@
+body {
+	background-color:#66A5AD;
+	font-family: arial;
+}
+
+.article-container {
+	width: 900px;
+	background-color:#C4DFE6;
+	padding: 30px;
+}
